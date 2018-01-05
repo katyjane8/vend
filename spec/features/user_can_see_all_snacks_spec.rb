@@ -34,8 +34,6 @@ describe "User can see all snacks" do
 
     visit machine_path(sams)
 
-    expect(page).to have_content("Don's Mixed Drinks")
-    expect(page).to have_content("White Castle Burger")
-    expect(page).to have_content("$3.50")
+    expect(page).to have_content("$2")
   end
 end
